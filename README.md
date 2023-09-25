@@ -141,8 +141,8 @@ Rate limits protect the relay from spam and abuse. We have raised some of these 
 ```
   client:
     subscription:
-      maxSubscriptions: 10
-      maxFilters: 10
+      maxSubscriptions: 20
+      maxFilters: 15
 ```
 We limit clients to maintaining 10 subscriptions at a time.
 
